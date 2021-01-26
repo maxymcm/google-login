@@ -14,7 +14,7 @@ driver.get("https://www.google.com")
 driver.find_element_by_xpath("//a[@id='gb_70']").click()
 time.sleep(1)
 emailField = driver.find_element_by_xpath("//input[@type='email']")
-emailField.send_keys("maxtantutorial@gmail.com")
+emailField.send_keys("")
 
 driver.find_element_by_xpath("//div[@id='identifierNext']").click()
 
